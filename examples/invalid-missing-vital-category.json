@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "syn-hr-no-category",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8867-4"
+      }
+    ]
+  },
+  "subject": { "reference": "Patient/syn-patient-001" },
+  "valueQuantity": {
+    "value": 80,
+    "unit": "/min",
+    "system": "http://unitsofmeasure.org",
+    "code": "/min"
+  }
+}
